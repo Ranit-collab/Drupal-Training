@@ -1,0 +1,121 @@
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section_2 {
+    margin-top: 20px;
+}
+
+.section_3 {
+    margin-top: 20px;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 236, 236);
+    border-radius: 50% 0 0 50%;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
+.btn-orange {
+    color: #ff6600;
+    background-color: white;
+    border-color: #ff6600;
+}
+
+.btn-orange:hover {
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+
+.card {
+    background-color: #ff6600;
+    color: #ffffff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgb(0, 0, 0, 0.8);
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 170px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 40px 0 40px;
+    table-layout: fixed;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    
+}
+
+td {
+    border: none;
+}
+
+.scrollable-cell {
+    max-height: 100px;
+    /* Set a maximum height for the table cell */
+    overflow-y: auto;
+    /* Enable vertical scrolling within the cell */
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    overflow: auto;
+    
+}
+
+.table-head th{
+    text-align: center;
+}
+.sec3_span{
+    font-weight: bold;
+}
+
+.scrollable-cell li{
+    list-style: none;
+}
+
+.scrollable-cell li::before {
+    
+    content: "•"; /* Use the bullet character as the content */
+    color: orange; /* Set the color to orange */
+    font-size: 20px; /* Increase the font size */
+    margin-right: 2px; /* Add some spacing between the bullet and the text */
+  }
